@@ -4,7 +4,6 @@ header a{color:#fff;text-decoration:none}
 .brand{font-weight:bold;letter-spacing:.05em}
 nav a{margin-left:1.2rem}
 nav a.active,nav a:hover{border-bottom:2px solid #ff5f05}
-.hero img{width:100%;max-height:520px;object-fit:cover;display:block}
 .hero h1{text-align:center;margin:1rem 1rem 0;font-size:2rem}
 main{max-width:760px;margin:0 auto;padding:1.5rem}
 a{color:#13294b}
@@ -16,6 +15,4 @@ nav a.button{background:#ff5f05;padding:.3rem .8rem;border-radius:4px;border-bot
 .facts b{display:block;font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;color:#ff5f05}
 .hero h1{margin:1.2rem 1rem 1rem}
 body{font-variant-numeric:lining-nums}
-.hero img{width:auto;max-width:100%;max-height:480px;margin:0 auto;object-fit:contain}
-.hero img{max-height:560px}
-.hero img{max-width:60%;max-height:336px}
+.hero img{display:block;width:min(60%,600px);height:auto;max-height:none;margin:0 auto}
