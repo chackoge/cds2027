@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 40 800 450" role="img" aria-label="Stick-figure sketch of a researcher drawing a network whose nodes form three communities">
 <defs><filter id="wobble"><feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="4"/></filter></defs>
-<rect y="40" width="800" height="450" fill="#fff"/>
+
 <g filter="url(#wobble)" fill="none" stroke="#111" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
  <!-- floor -->
  <path d="M40 470 H500"/>
