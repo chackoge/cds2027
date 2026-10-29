@@ -17,4 +17,4 @@ nav a.button{background:#ff5f05;padding:.3rem .8rem;border-radius:4px;border-bot
 .hero h1{margin:1.2rem 1rem 1rem}
 body{font-variant-numeric:lining-nums}
 .hero img{width:auto;max-width:100%;max-height:480px;margin:0 auto;object-fit:contain}
-.hero img{max-height:560px;filter:brightness(1.2) contrast(1.1);mix-blend-mode:multiply}
+.hero img{max-height:560px}
