@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <a class="brand" href="{{ '/' | relative_url }}">CDS2027</a>
+    <nav>
+      {% for item in site.data.nav %}
+      <a href="{{ item.url | relative_url }}" class="{% if item.button %}button{% endif %}{% if page.url == item.url %} active{% endif %}">{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </header>
+  {% if page.hero %}
+  <section class="hero">
+    <img src="{{ '/assets/hero.jpg' | relative_url }}" alt="Sketch of researchers in a seminar room watching a presentation of a network diagram titled CDS2027">
+    <h1>{{ site.title }}</h1>
+  </section>
+  <section class="facts">
+    <div><b>Dates</b> TBD</div>
+    <div><b>Location</b> TBD</div>
+    <div><b>Registration</b> <a href="{{ '/registration/' | relative_url }}">Coming soon</a></div>
+  </section>
+  {% endif %}
+  <main>
+    {% unless page.hero %}<h1>{{ page.title }}</h1>{% endunless %}
+    {{ content }}
+  </main>
+  <footer>&copy; 2027 CDS2027</footer>
+</body>
+</html>

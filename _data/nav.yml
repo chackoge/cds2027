@@ -1,0 +1,12 @@
+# Add a page to the menu: one entry per line.
+- title: Home
+  url: /
+- title: Program
+  url: /program/
+- title: Venue
+  url: /venue/
+- title: Contact
+  url: /contact/
+- title: Registration
+  url: /registration/
+  button: true
