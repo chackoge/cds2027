@@ -18,3 +18,4 @@ nav a.button{background:#ff5f05;padding:.3rem .8rem;border-radius:4px;border-bot
 body{font-variant-numeric:lining-nums}
 .hero img{width:auto;max-width:100%;max-height:480px;margin:0 auto;object-fit:contain}
 .hero img{max-height:560px}
+.hero img{max-width:60%;max-height:336px}
