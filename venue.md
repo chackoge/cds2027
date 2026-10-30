@@ -3,4 +3,7 @@ layout: default
 title: Venue
 ---
 
-Venue and travel information coming soon.
+[Discovery Partners Institute](https://dpi.illinois.edu/)
+200 S. Wacker Drive, 20th Floor
+Chicago, IL 60606
+
